@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title> table standard </title>
-		<link rel="stylesheet" href="index3-1.css">
-	</head>
-	<body>
-		<table border="1">
-			<tr>
-				<th> No </th>
-				<th> name </th>
-				<th> age </th>
-			</tr>
-			<tr>
-				<td> 21001 </td>
-				<td> Aiba Takesi </td>
-				<td> 21 </td>
-			</tr>
-			<tr>
-				<td> 21002 </td>
-				<td> Inoue  Yuji  </td>
-				<td> 21 </td>
-			</tr>
-			
-		</table>
-	</body>
-	</html>
+
+<head>
+	<!-- 文字コードは世界で使用できるようにUTF-8を使用します。 -->
+	<meta charset="UTF-8">
+	<title> table standard </title>
+	<!-- 下記の行で、見やすいようにデザインを指定しています。コメントの切り替えを行って、デザインを適用の違いを見てください -->
+	<link rel="stylesheet" href="index3-1.css">
+</head>
+
+<body>
+	<!-- 基本的なテーブルの作成 -->
+	<!-- 表の開始には、tableタグ。オプションのborderは、罫線の太さを指定する -->
+	<table border="1">
+		<!-- 行（レコード）はtrタグを使用する -->
+		<tr>
+			<!-- セル（表の要素）は、tdタグで囲む -->
+			<!-- 最初の行で、1行3セルの構成が決まるので、以降は、同じようにセル数を合わせること -->
+			<th> No </th>
+			<th> name </th>
+			<th> age </th>
+		</tr>
+		<tr>
+			<td> 21001 </td>
+			<td> Aiba Takesi </td>
+			<td> 21 </td>
+		</tr>
+		<tr>
+			<td> 21002 </td>
+			<td> Inoue Yuji </td>
+			<td> 21 </td>
+		</tr>
+
+	</table>
+</body>
+
+</html>
+<!-- 
+	タグの出現順について、注意をするようにしてください。
+	（　１　＊｛　２　＋　３　）　／　４　｝　は、かっこの順番がおかしいのですが、このルールと同じです。
+ -->
