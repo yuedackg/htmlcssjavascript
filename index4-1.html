@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+	<meta charset="UTF-8">
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<title>Document</title>
+	<!-- ここから下に、CSSを記述します。 -->
+	<style>
+		/* *{
+			border: solid 1px red;
+		} */
+		header,
+		nav,
+		main,
+		footer {
+			border-radius: 10px;
+			/* border-style: solid; */
+			border: springgreen 1px solid;
+			padding-left: 20px;
+		}
+
+		body {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		header {
+			width: calc(100% - 2px - 20px);
+			background: lightgoldenrodyellow;
+		}
+
+		nav {
+			width: calc(30% - 20px - 2px);
+			border: none;
+			background-color: lightslategray;
+		}
+
+		main {
+			width: calc(70% - 20px - 2px);
+			border: none;
+		}
+
+
+		footer {
+			width: calc(100% - 2px - 20px);
+		}
+		nav ul li {
+			background-color: lightgray;
+			border-bottom:solid 4px black ;
+border-left: solid 2px black ;
+margin-top: 5px;
+list-style: none;
+width: 50%;
+
+		}
+		nav ul {
+			margin-left: -10px;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>header</h1>
+	</header>
+	<nav>
+		<h1>nav</h1>
+		<h2>通信販売のサイトの例</h2>
+		<ul>
+			<li>Amazon </li>
+			<li>Rakuten</li>
+			<li>Yodobashicamerab</li>
+		</ul>
+	</nav>
+	<main>
+		<h1>main</h1>
+		<section id="main1">
+			<h2>メインコンテンツです</h2>
+			<p>ここには、それぞれの通信販売の代表的なメーカーを記述します。</p>
+
+		</section>
+		<section id="sectionAmazon">
+			<h2>amazonのコンテンツです</h2>
+
+		</section>
+		<section id="sectionRakuten">
+			<h2>Rakutenのコンテンツです</h2>
+
+		</section>
+		<section id="sectionYodobashicamera">
+			<h2>ヨドバシカメラのコンテンツです</h2>
+
+		</section>
+	</main>
+	<footer>
+		<h1>footer</h1>
+	</footer>
+</body>
+
+</html>
